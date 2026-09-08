@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>刪除 MyDot 的資料</title>
+  <style>
+    :root { font-family: system-ui, -apple-system, sans-serif; line-height: 1.7; }
+    body { max-width: 760px; margin: 0 auto; padding: 32px 20px 64px; }
+    h1 { line-height: 1.25; }
+    h2 { margin-top: 2rem; }
+    .summary { padding: 18px; border: 2px solid currentColor; border-radius: 16px; }
+    .summary ol { margin: 0.5rem 0 0; padding-left: 1.25rem; }
+    .summary li { margin: 0.4rem 0; }
+    a { color: inherit; }
+    code { overflow-wrap: anywhere; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>刪除 MyDot 的資料</h1>
+    <p>本頁適用於 Google Play 商店中的應用程式 <strong>MyDot</strong>（開發人員名稱以商店資訊顯示為準）。最後更新：2026 年 9 月 8 日。</p>
+
+    <div class="summary">
+      <p><strong>請依下列步驟要求刪除資料。</strong>MyDot 不建立帳號、也沒有自有伺服器，開發者端沒有可代你遠端清空的雲端資料庫。刪除是在你的裝置（以及你自己的 Google Drive，若曾備份）完成。</p>
+      <ol>
+        <li>在 MyDot 刪除單筆足跡，或解除安裝 App 以移除本機全部資料。</li>
+        <li>若曾使用 Google Drive 備份：到 Drive 開啟「MyDot」資料夾，刪除 zip 備份。</li>
+        <li>若曾連結 Google 帳號：到 Google 帳號權限設定撤銷 MyDot 的存取。</li>
+      </ol>
+    </div>
+
+    <h2>步驟一：刪除保存在手機裡的資料</h2>
+    <p>開啟 <strong>MyDot</strong> 後任選一種方式：</p>
+    <ol>
+      <li><strong>刪除單筆足跡：</strong>在地圖點選標記，或在時間軸開啟該筆紀錄，選擇刪除。該筆標題、日期、分類、評分、筆記、座標，以及由 App 複製管理的照片會一併移除。</li>
+      <li><strong>刪除這台裝置上的全部本機資料：</strong>到手機系統設定解除安裝 MyDot。解除安裝通常會刪除 App 的 SQLite 資料庫與專屬照片資料夾。</li>
+    </ol>
+    <p>以上動作完成後立即生效，<strong>沒有額外保留期限</strong>。開發者無法從遠端復原；若你需要副本，請在刪除或解除安裝前先自行備份。</p>
+
+    <h2>步驟二：刪除你放到 Google Drive 的備份（僅在你曾使用此功能時）</h2>
+    <ol>
+      <li>用同一個 Google 帳號開啟 <a href="https://drive.google.com/">Google Drive</a>。</li>
+      <li>找到名為 <strong>MyDot</strong> 的資料夾（舊版備份也可能在名為 TravelFootprint 的資料夾）。</li>
+      <li>刪除其中的 zip 備份檔，並清空雲端垃圾桶（若你的 Drive 有垃圾桶）。</li>
+    </ol>
+    <p>解除安裝 MyDot <strong>不會</strong>自動刪除 Drive 裡的檔案。這些檔案在你的 Google 帳號底下，直到你刪除為止；MyDot 開發者不另外保存副本，也<strong>沒有</strong>額外保留期限。</p>
+
+    <h2>步驟三：撤銷 Google 授權（僅在你曾連結帳號時）</h2>
+    <ol>
+      <li>開啟 <a href="https://myaccount.google.com/permissions">Google 帳號 → 第三方存取權</a>。</li>
+      <li>找到 <strong>MyDot</strong>，選擇移除／撤銷存取。</li>
+    </ol>
+
+    <h2>會刪除哪些資料、哪些不會由 MyDot 刪除</h2>
+    <p><strong>你刪除足跡或解除安裝後會立刻從本機移除：</strong>足跡標題、日期、分類、評分、筆記、座標、App 專屬資料夾中的照片。</p>
+    <p><strong>不會因為解除安裝而自動消失，需你自行處理：</strong></p>
+    <ul>
+      <li>你上傳到自己 Google Drive 的備份 zip。</li>
+      <li>你曾用系統分享面板另存到其他 App、電腦或雲端的 zip／分享圖卡。</li>
+    </ul>
+    <p><strong>MyDot 開發者不保存、因此無法代刪的資料：</strong>我們沒有自有伺服器與使用者資料庫。載入地圖或搜尋地點時，Google Maps／Places SDK 可能依 <a href="https://policies.google.com/privacy">Google 隱私權政策</a>處理 IP、裝置與位置相關技術資料；那些資料的保留由 Google 決定，請向 Google 提出要求。MyDot 不會把你的筆記或附加照片提供給 Google。</p>
+    <p><strong>額外保留期限：</strong>無。本機刪除或解除安裝後，開發者端沒有可再保存的使用者日記副本。</p>
+
+    <h2>聯絡</h2>
+    <p>若步驟不清楚，請來信（請在主旨寫「MyDot 資料刪除」）。請注意：我們仍無法從遠端刪除你手機或 Drive 裡的檔案，只能協助說明上述步驟。</p>
+    <p>正式上架前請將以下內容替換為有效支援信箱：</p>
+    <p><code>[請替換為支援信箱]</code></p>
+    <p><a href="./">返回 MyDot 隱私權政策</a></p>
+  </main>
+</body>
+</html>
